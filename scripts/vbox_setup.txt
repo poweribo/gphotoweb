@@ -1,0 +1,16 @@
+set up network/port forwarding  - http/tcp, 3000 for host and guest
+set up usb - usb 3  - add camera in device filter
+set up shared folder - vbox windows
+add optical disk empty  - vbox windows
+install linux headers  - sudo pacman -S linux-headers  (matches kernel. ie. linux54-headers)
+install vbox guest additions to enable shared folders - go to mounted iso folder, run vbox linux
+install vbox extension pack to enable usb 2/3 support - download file from https://download.virtualbox.org/virtualbox/6.0.16/
+mount: sudo mount -t vboxsf windev /media/windev (may not  be needed)
+install node 10
+install gphoto2
+
+run: npm install, npm start
+look at scripts to run app
+
+---
+set camera usb mode to control / pc remote

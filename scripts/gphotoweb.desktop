@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=gphotoweb
+Exec=scriptLocation/startgphotoweb.sh
+Icon=scriptLocation/gphotoweb.png
+Terminal=true
+Type=Application
